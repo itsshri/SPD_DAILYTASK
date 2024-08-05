@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: #fef08a; */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .marquee {
+    overflow-x: clip;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+  }
+  
+  .marquee-inner {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 12vh 0;
+    will-change: transform;
+  }
+  
+  .marquee-inner img {
+    height: 70%;
+    transition: transform 0.5s;
+    flex-shrink: 0;
+    width: 20vw;
+    border-radius: 2rem;
+  }
+  
+  .marquee-inner img:hover {
+    transform: scale(1.03);
+  }
+  
+
+/* text animation */
+
+
+
+
+
+
